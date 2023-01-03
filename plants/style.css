@@ -94,3 +94,32 @@ a {
     color: #ffffff;
     background-color: #E06733;
 }
+/*main*/
+.about-body {
+    padding: 93px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-title {
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+.about-title span {
+    color: #E06733;
+}
+.about-subtitle {
+    padding-top: 40px;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+.about-img {
+    background-image: url(assets/img/houseplant.png);
+    background-size: cover;
+    width: 449px;
+    height: 479px;
+}
