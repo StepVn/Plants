@@ -7,5 +7,43 @@ body {
     padding: 0px 50px;
 }
 .header {
-    background-color: #35bb1a;
+    background-color: #EDF2EC;
+}
+.nav-bar {
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    font-size: 16px;
+    padding-left: 46px;
+}
+.nav-link {
+    font-family: 'Inika';
+    text-decoration: none;
+    color: #010201;
+    display: inline-block;
+    width : 100px;
+}
+.nav-link:hover {
+    color: #E06733;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 0px;
+}
+.header-img {
+    width: 448.8;
+    height: 407.36;
 }
