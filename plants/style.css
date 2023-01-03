@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inter&display=swap');
+
 body {
     font-family: 'Inika';
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    
 }
 .container {
     max-width: 1440px;
@@ -8,6 +16,10 @@ body {
 }
 .header {
     background-color: #EDF2EC;
+    font-family:'Inika';
+}
+a {
+    text-decoration: none;
 }
 .nav-bar {
     padding: 60px 0px;
@@ -28,6 +40,7 @@ body {
     color: #010201;
     display: inline-block;
     width : 100px;
+    
 }
 .nav-link:hover {
     color: #E06733;
@@ -44,6 +57,40 @@ body {
     padding: 60px 0px;
 }
 .header-img {
-    width: 448.8;
-    height: 407.36;
+    background-image: url(assets/img/leafs.png);
+    background-size: cover;
+    width: 448px;
+    height: 408px;
+}
+.header-info {
+    font-family: 'Inter';
+}
+.header-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+.header-title span {
+    color: #499A18;
+}
+.header-subtitle {
+    padding-top: 42px;
+    padding-bottom: 48px;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #636060;
+}
+.header-button {
+    color: black;
+    font-size: 16px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    padding: 10px 27px;
+}
+.header-button:hover{
+    color: #ffffff;
+    background-color: #E06733;
 }
