@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inika&family=Inter&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
 
 body {
     font-family: 'Inika';
@@ -211,4 +216,148 @@ a {
     padding-top: 10px;
     font-size: 16px;
     color: #717171;
+}
+/**price**/
+
+.price-body {
+    font-family: 'Inter';
+    padding: 40px 0px 128px 0px;
+}
+.price-header {
+    display: flex;
+    justify-content: space-between;
+}
+.price-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.price-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+}
+.price-text span {
+    color: #499A18;
+}
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    align-items: center;
+}
+.price-accordion {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    padding: 10px 42px;
+}
+.accordion {
+    padding: 16px 0px;
+}
+.accordion-info {
+    background: #EDF2EC;
+    border-radius: 20px;
+    padding: 16px 40px;
+}
+.accordion-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+.accordion-cleek {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion-arrow {
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    padding: 7px;
+}
+.arrow {
+    border: solid #717171;
+    border-width: 0 0.5px 0.5px 0;
+    padding: 2px;
+    transform: rotate(45deg);
+    
+}
+.prices-cleek {
+    font-family: 'Inika';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    margin-bottom: 39px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: white;
+}
+.prices-cleek:hover {
+    color: #ffffff;
+    background-color: #E06733;
+    cursor: pointer;
+}
+.price-img {
+    background-image: url(assets/img/leafs-mini.png);
+    background-size: cover;
+    width: 152px;
+    height: 174px;
+}
+/**conacts**/
+
+.contacts-main {
+    padding-top: 60px;
+}
+.contacts {
+    background-color: #EDF2EC;
+}
+.contacts-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-img {
+    background-image: url(assets/img/contact_woman.png);
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+}
+.accordion-city-info {
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.accordion-city-cleek {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    padding: 5px 20px;
+}
+.accordion-city-title {
+    margin-right: 300px;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+}
+.accordion-city-arrow {
+    background-color: #AEA1A1;
+    border-radius: 50%;
+    padding: 7px;
+}
+.city-arrow {
+    border: solid #ffffff;
+    border-width: 0 0.5px 0.5px 0;
+    padding: 2px;
+    transform: rotate(45deg);
 }
