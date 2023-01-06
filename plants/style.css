@@ -396,6 +396,9 @@ a {
     font-size: 20px;
     line-height: 50px;
 }
+.footer-rsschool a{
+    color: #000000;
+}
 .footer-rsschool h3{
     font-weight: inherit;
 }
