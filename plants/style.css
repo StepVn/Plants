@@ -5,6 +5,9 @@
     margin: 0;
     border: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Inika';
@@ -343,6 +346,9 @@ a {
     width: 450px;
     padding: 5px 20px;
 }
+.accordion-city-cleek h3{
+    font-weight: inherit;
+}
 .accordion-city-title {
     margin-right: 300px;
     font-size: 20px;
@@ -360,4 +366,41 @@ a {
     border-width: 0 0.5px 0.5px 0;
     padding: 2px;
     transform: rotate(45deg);
+}
+/**footer**/
+
+.footer {
+    font-family: 'Inter';
+}
+.footer-main {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-date {
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    line-height: 50px;
+}
+.footer-date p {
+    padding-right: 20px;
+}
+.footer-date a{
+    color: #000000;
+}
+.footer-rsschool {
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.footer-rsschool h3{
+    font-weight: inherit;
+}
+.footer-links {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
 }
