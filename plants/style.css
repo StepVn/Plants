@@ -272,8 +272,18 @@ a {
 }
 .accordion-cleek {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding: 1px 40px 0;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    background-color: #EDF2EC;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .accordion-arrow {
     background-color: #D9D9D9;
@@ -345,6 +355,7 @@ a {
     align-items: center;
     width: 450px;
     padding: 5px 20px;
+    cursor: pointer;
 }
 .accordion-city-cleek h3{
     font-weight: inherit;
