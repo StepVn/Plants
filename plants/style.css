@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inika&family=Inter&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -18,7 +19,7 @@ body {
     
 }
 .container {
-    max-width: 1440px;
+    max-width: 1220px;
     margin: 0 auto;
     padding: 0px 50px;
 }
@@ -47,7 +48,7 @@ a {
     text-decoration: none;
     color: #010201;
     display: inline-block;
-    width : 100px;
+    width: 100px;
     
 }
 .nav-link:hover {
@@ -68,7 +69,7 @@ a {
     background-image: url(assets/img/leafs.png);
     background-size: cover;
     width: 448px;
-    height: 408px;
+    height: 407px;
 }
 .header-info {
     font-family: 'Inter';
@@ -114,6 +115,7 @@ a {
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
+    font-weight: normal;
 }
 .about-title span {
     color: #E06733;
@@ -128,7 +130,7 @@ a {
 .about-img {
     background-image: url(assets/img/houseplant.png);
     background-size: cover;
-    width: 449px;
+    width: 464px;
     height: 479px;
 }
 /** service **/
@@ -148,6 +150,7 @@ a {
     line-height: 52px;
     color: #499A18;
     margin-right: 215px;
+    font-weight: normal;
 }
 .service-clack {
     font-size: 20px;
@@ -263,7 +266,6 @@ a {
 .accordion-info {
     background: #EDF2EC;
     border-radius: 20px;
-    padding: 16px 40px;
 }
 .accordion-title {
     font-weight: 700;
@@ -275,7 +277,7 @@ a {
     align-items: center;
     padding: 1px 40px 0;
     justify-content: space-between;
-    width: 250px;
+    width: 150px;
     height: 50px;
     background-color: #EDF2EC;
     font-style: normal;
@@ -412,9 +414,120 @@ a {
 }
 .footer-rsschool h3{
     font-weight: inherit;
+    align-items: center;
 }
 .footer-links {
     width: 200px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+/** Адапатив **/
+
+@media (max-width: 1033px) {
+    .nav-bar {
+        padding: 45px 0;
+    }
+    .header-content {
+        flex-direction: row-reverse;
+        padding-top: 40px;
+        padding-bottom: 73px;
+    }
+    .header-img {
+        max-width: 280px;
+        max-height: 255px;
+        margin: 0;
+    }
+    .header-title {
+        line-height: 50px;
+        font-size: 30px;
+        margin: 0;
+    }
+    .header-subtitle {
+        line-height: 25px;
+        font-size: 15px;
+        margin: 30px 0;
+    }
+    .header-info {
+        margin: 0;
+    }
+    .about-body {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-title {
+        text-align: center;
+    }
+    .about-subtitle {
+        font-size: 20px;
+        margin-top: 30px;
+        line-height: 30px;
+    }
+    .about-img {
+        width: 250px;
+        height: 258px;
+    }
+    .service-img1 {
+        width: 280px;
+        height: 350px;
+    }
+    .service-img2 {
+        width: 280px;
+        height: 350px;
+    }
+    .service-img3 {
+        width: 280px;
+        height: 350px;
+    }
+    .service-img4 {
+        width: 280px;
+        height: 350px;
+    }
+    .service-img5 {
+        width: 280px;
+        height: 350px;
+    }
+    .service-img6 {
+        width: 280px;
+        height: 350px;
+    }
+    .service-title {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .service-items {
+        padding-top: 40px;
+    }
+    .service-body{
+        padding: 30px 0px 27px;
+    }
+    .service-info {
+        padding: 10px 5px 36px;
+    }
+    .price-text {
+        font-size: 25px;
+    }
+    .contacts-main {
+        flex-direction: column-reverse;
+    }
+    .contacts-title {
+        font-size: 20px;
+        padding-bottom: 100px;
+    }
+    .contact-img {
+        width: 200px;
+        height: 248.49px;
+        margin-top: 250px;
+    }
+    .contact-section {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer-main {
+        flex-direction: column;
+    }
+    .accordion-city-cleek {
+        width: 450px;
+    }
 }
