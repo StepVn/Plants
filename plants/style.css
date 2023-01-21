@@ -149,7 +149,6 @@ a {
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
-    margin-right: 215px;
     font-weight: normal;
 }
 .service-clack {
@@ -529,5 +528,90 @@ a {
     }
     .accordion-city-cleek {
         width: 450px;
+    }
+}
+
+@media (max-width: 660px) {
+    .header-img {
+        display: none;
+    }
+    .header-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .header-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .header-subtitle {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .about-title {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .about-subtitle {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about-img {
+        width: 150px;
+        height: 147px;
+    }
+    .service-title {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .service-cleek {
+        line-height: 4;
+    }
+    .service-items {
+        gap: 10px;
+        justify-content: center;
+    }
+    .price-body {
+        flex-direction: column;
+        margin: 25px 0 40px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .price-img {
+        display: none;
+    }
+    .price-section {
+        display: flex;
+        flex-direction: column;
+        line-height: 5;
+    }
+    .price-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .price-text {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .price-title {
+        font-size: 20px;
+    }
+    .contact-img {
+        margin-top: 132px;
+        width: 100px;
+        height: 124px;
+    }
+    .contacts-title {
+        font-size: 25px;
+    }
+    .accordion-city-cleek{
+        max-width: 300px;
+        padding: 5px 20px;
+    }
+    .accordion-city-title {
+        margin-right: 200px;
     }
 }
