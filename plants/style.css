@@ -254,8 +254,6 @@ a {
 }
 .price-accordion {
     display: flex;
-    flex-direction: column;
-    border: 1px solid #E3E1D5;
     border-radius: 20px;
     padding: 10px 42px;
 }
@@ -263,7 +261,6 @@ a {
     padding: 16px 0px;
 }
 .accordion-info {
-    background: #EDF2EC;
     border-radius: 20px;
 }
 .accordion-title {
@@ -421,7 +418,19 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-
+.nav_list {
+    display: none;
+}
+.accordion_open_info {
+    transition: 0.3s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    
+}
+.grey {
+    color: #717171;
+    font-size: 16px;
+}
 /** Адапатив **/
 
 @media (max-width: 1033px) {
