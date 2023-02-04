@@ -247,21 +247,23 @@ a {
     color: #499A18;
 }
 .price-section {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     padding-top: 32px;
-    align-items: center;
+    /* align-items: center; */
 }
 .price-accordion {
     display: flex;
     border-radius: 20px;
     padding: 10px 42px;
+    justify-content: space-between;
 }
 .accordion {
     padding: 16px 0px;
 }
 .accordion-info {
     border-radius: 20px;
+    background-color: #D6E7D2;
 }
 .accordion-title {
     font-weight: 700;
@@ -425,11 +427,44 @@ a {
     transition: 0.3s ease-in-out;
     max-height: 0;
     overflow: hidden;
-    
+    background-color: #D6E7D2;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
 }
 .grey {
+    max-width: 174px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
     color: #717171;
+    padding: 15px 0 10px 35px;
+}
+.accordion-cleek.active:hover {
+    background-color: #D6E7D2;
+    padding-bottom: 10px;
+}
+.price_orange {
+    color: #E06733;
+    font-weight: bold;
     font-size: 16px;
+}
+span.perH {
+    font-size: 12px;
+}
+.accrodion_open_price {
+    padding: 0px 35px;
+}
+.price_order {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    padding: 0px 35px;
 }
 /** Адапатив **/
 
