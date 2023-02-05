@@ -41,7 +41,7 @@ a {
     list-style-type: none;
     display: flex;
     font-size: 16px;
-    padding-left: 46px;
+    padding-left: 500px;
 }
 .nav-link {
     font-family: 'Inika';
@@ -345,22 +345,50 @@ a {
     width: 400px;
     height: 500px;
 }
-.accordion-city-info {
+.accordion_city_info.is-active .accordion_body {
+    display: block;
+}
+.accordion_city_info {
     background: #D6E7D2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    height: 50px;
+}
+.accordion_body {
+    display: none;
+    border-top: 0;
+    left: 0;
+    right: 100px;
+    position: absolute;
+    top: 100%;
+    width: 420px;
+    padding: 27px 35px;
+    background-color: #DCE9D9;
+}
+.accordion_item {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px;
+    cursor: pointer;
+    color: #499A18;
+    border-bottom: 1px solid #717171;
+    letter-spacing:  0.05em;
+}
+.accordion_item:hover {
+    cursor: pointer;
+    color: #717171;
 }
 .accordion-city-cleek {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 450px;
     padding: 5px 20px;
     cursor: pointer;
 }
 .accordion-city-cleek h3{
     font-weight: inherit;
 }
-.accordion-city-title {
+.accordion_city_title {
     margin-right: 300px;
     font-size: 20px;
     line-height: 40px;
@@ -466,6 +494,9 @@ span.perH {
     color: #717171;
     padding: 0px 35px;
 }
+
+
+    
 /** Адапатив **/
 
 @media (max-width: 1033px) {
@@ -570,9 +601,6 @@ span.perH {
     .footer-main {
         flex-direction: column;
     }
-    .accordion-city-cleek {
-        width: 450px;
-    }
 }
 
 @media (max-width: 660px) {
@@ -655,7 +683,7 @@ span.perH {
         max-width: 300px;
         padding: 5px 20px;
     }
-    .accordion-city-title {
+    .accordion_city_title {
         margin-right: 200px;
     }
     .nav-list {
