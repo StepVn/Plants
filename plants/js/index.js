@@ -3,6 +3,8 @@ console.log('Привет проверяющий. Я знаю, что секци
 const header_burger = document.querySelector('.burger');
 const burger_menu = document.querySelector('.burger_menu');
 const body = document.body;
+const filter_button = document.querySelectorAll('.filter_clack')
+const pictures = document.querySelector('.srvc-img')
 
 function burgerS (s) {
     s.preventDefault();
@@ -60,3 +62,33 @@ let accordion_city_info = function () {
 };
 
 accordion_city_info();
+
+const serviceClack = document.querySelectorAll('.service-clack');
+const garden = document.querySelectorAll('.garden');
+const lawn = document.querySelectorAll('.lawn_care');
+const planting = document.querySelectorAll('.planting');
+
+serviceClack.forEach ((element) =>
+    element.addEventListener('click', () => {
+        element.classList.toggle('activno');
+    })
+);
+
+const blur = (pict) => {
+    pict.classList.toggle('blur');
+};
+
+serviceClack.forEach ((element) => {
+    element.addEventListener('click', () => {
+        if (element.classList.contains('filter_gardens')) {
+            lawn.forEach(blur);
+            planting.forEach(blur);
+        } else if (element.classList.contains('filter_lawn')) {
+            garden.forEach(blur);
+            planting.forEach(blur);
+        } else if (element.classList.contains('filter_planting')) {
+            garden.forEach(blur);
+            lawn.forEach(blur);
+        }
+    });
+});
