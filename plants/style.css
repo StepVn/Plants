@@ -159,11 +159,21 @@ a {
     border-radius: 3px;
     padding: 12px 40px;
     margin-right: 48px;
+    transition-duration: 300ms;
 }
 .service-clack:hover {
     color: #ffffff;
     background-color: #E06733;
     cursor: pointer;
+}
+.service-clack.activno {
+    transition-duration: 500ms;
+    scale: 1.05;
+}
+.activno {
+    text-decoration: 300ms;
+    background-color: #E06733;
+    color: #ffff;
 }
 .but2 {
     padding: 12px 50px;
@@ -221,6 +231,10 @@ a {
     padding-top: 10px;
     font-size: 16px;
     color: #717171;
+}
+.blur {
+    transition-duration: 300ms;
+    filter: blur(5px);
 }
 /**price**/
 
